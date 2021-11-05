@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px；
+}
+p{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding-top: 5px;
+}
+h6{
+  font-size: 1.25rem;
+  margin-bottom: 0.35em;
+  color: aliceblue;
+}
+li{
+  list-style: none;
+}
+a { 
+  color:#0000FF; text-decoration:none;
+}
+body {
+  background-color:rgb(21, 104, 79);
+  max-width: 100%;
+}
+.wrap{
+  overflow: hidden;
+}
+.header{
+  position: sticky;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.logo { 
+  width: 100%;
+  display: flex;
+}
+.logo .image-resize {
+  max-width: 40px;
+  max-height: 40px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;   
+}
+.twitter {
+  margin-left: auto;
+  float: right;
+  width: auto;
+  font-size: 20px;
+  padding-top: 3px;
+  color: rgb(217, 250, 219);
+}
+.flex {
+  margin: 0 ;
+  padding: 0;
+}
+.main{
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 16px;
+  padding-left: auto;
+  padding-right: auto;
+}
+.main h1{
+  color: rgb(229, 230, 231);
+}
+.firsttext p{
+  padding-top: 20px;
+  color: rgb(179, 192, 150);
+  padding-bottom: 50px;
+}
+.startpage{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(40, 150, 7);
+  max-width: 672px;
+  height: 60px;
+  border-radius: 5px;
+}
+.startpage1{  
+  width: 672px;
+  height: 60px;
+  display: table-cell;
+  vertical-align:middle;
+}
+.secondtext{
+  color: aliceblue;
+}
+.secondbotton{
+  max-width: 704px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+  display: flex;
+}
+.box{
+  max-width: 320px;
+  width: 100%;
+  margin: 16px;
+  border-radius: 5px;
+  border: 1px solid rgb(175, 175, 172);
+  padding:7px 21px;
+  min-width: 64px;
+}
+.message{
+  padding: 30px 0px;
+  background-color: rgb(82, 129, 86);
+}
+.message1 p{
+  color: aliceblue;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.message2{
+  width: auto;
+  height: 300px;
+}
+#message-image{
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  display: inline;
+}
+.thirdtext{
+  font-size:16px ;
+  margin: 16px;
+  font-style: italic;
+}
+.name{
+  margin-top: 24px;
+  font-size: 24px;
+}
+.introduction{
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.explanation{
+  margin-top: 32px ;
+  margin-bottom: 32px;
+  width: 100%;
+  display: block;
+}
+.explanation1{
+  display: flex;
+}
+.explanation2{
+  text-align: center;
+  padding: 32px;
+  flex: 110%;
+}
+.explanation2 p{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.875rem;
+}
+.footer p{
+  text-align: center;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.selextbtn{
+  content: "•";
+  width: 20px;
+  height: 20px;
+  color: black;
+}
